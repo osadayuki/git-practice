@@ -1,0 +1,57 @@
+    /* リセットCSS */
+    *,
+    *::before,
+    *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    }
+
+    ol, ul {
+    list-style: none;
+    }
+
+    a {
+    text-decoration: none;
+    }
+
+    button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    }
+
+    input, textarea {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    }
+
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    table {
+    border-collapse: collapse;
+    }
+
+    blockquote {
+    quotes: none;
+    }
+
+    blockquote:before, blockquote:after {
+    content: '';
+    content: none;
+    }
+
+    hr {
+    border: none;
+    height: 1px;
+    background: #ccc;
+    }
